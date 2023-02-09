@@ -5,7 +5,7 @@ const app = express()
 
 app.use(express.json())
 
-const input = "https://api.github.com/users/xiaotian/repos"
+const input = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/Yodel_Sound_Effect.mp3"
 
 app.get("/callRecording", async(req,res)=>{
     try{
